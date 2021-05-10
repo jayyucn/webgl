@@ -1,0 +1,19 @@
+
+/*隐藏字体按钮*/
+.pull-left {
+    display: none;
+}
+
+.book-header .btn {
+    display: block;
+    height: 50px;
+    padding: 0 15px;
+    border-bottom: none;
+    color: #ccc;
+    text-transform: uppercase;
+    line-height: 50px;
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+    position: relative;
+    font-size: 14px;
+}

@@ -1,0 +1,59 @@
+.page-toc-menu {
+    background: rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 68px;
+    left: 15%;
+    display: block;
+    text-align: left;
+}
+.page-toc-menu li {
+    color: rgb(77, 76, 76);
+    padding-left: 5px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.menu-selected {
+    font-weight:bold; 
+    background: #ff99cc; 
+    color:#fff;}
+
+.page-toc-menu li::selection {
+    color: rgb(230, 13, 13);
+}
+
+.page-toc-menu a {
+    color: rgb(7, 7, 7);
+}
+.page-toc-menu a:hover {
+    text-decoration: underline;
+}
+
+.book.color-theme-1 .page-toc-menu li {
+    color: #f3eacb;
+}
+.book.color-theme-1 .page-toc-menu a {
+    color: #cbcff3
+}
+.book.color-theme-2 .page-toc-menu li {
+    color: #fff;
+}
+.book.color-theme-2 .page-toc-menu a {
+    color: #fff;
+}
+
+@media only screen 
+  and (max-height: 240px) {
+	.page-toc-menu {
+		display: none;
+	}
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+	.page-toc-menu {
+		display: none;
+	}
+}

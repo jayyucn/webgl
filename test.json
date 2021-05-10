@@ -1,0 +1,32 @@
+{
+    "title": "OpenGL学习笔记",
+    "plugins": [
+        "anchor-navigation-ex",
+        "chapter-fold",
+        "expandable-chapters",
+        "-sharing",
+        "-lunr",
+        "-search",
+        "search-plus",
+        "prism",
+        "-highlight",
+        "code"
+    ],
+    "pluginsConfig": {
+        "anchor-navigation-ex": {
+            "showLevel": true,
+            "showGoTop": true
+        },
+        "prism": {
+            "css": [
+                "prismjs/themes/prism-okaidia.css"
+            ],
+            "lang": {
+                "flow": "cpp"
+              }
+        },
+        "code": {
+            "copyButtons": false
+          }
+    }
+}

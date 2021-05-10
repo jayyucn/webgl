@@ -1,0 +1,19 @@
+{
+  "name": "notebook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "gitbook-cli": "^2.3.2",
+    "gitbook-plugin-anchor-navigation-ex": "^1.0.14",
+    "gitbook-plugin-chapter-fold": "^0.0.4",
+    "gitbook-plugin-expandable-chapters": "^0.2.0",
+    "gitbook-plugin-search-plus": "^1.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
